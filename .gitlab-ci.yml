@@ -1,0 +1,26 @@
+stages:
+  - validate
+
+variables:
+  NODE_VERSION: "20"
+
+.node_template: &node_template
+  image: node:${NODE_VERSION}-alpine
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+
+typecheck:
+  <<: *node_template
+  stage: validate
+  script:
+    - npm ci
+    - npm run typecheck
+
+test:
+  <<: *node_template
+  stage: validate
+  script:
+    - npm ci
+    - npm test

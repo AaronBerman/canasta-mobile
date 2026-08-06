@@ -1,0 +1,4 @@
+# EAS Build upload ignore — keep native folders out so Prebuild runs on EAS (CNG)
+android/
+ios/
+.expo/

@@ -1,0 +1,22 @@
+{
+  "name": "canasta-mobile",
+  "version": "0.1.0",
+  "description": "2D mobile Canasta card game with single-player AI and multiplayer support",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/vitest/vitest.mjs run",
+    "test:watch": "node --experimental-vm-modules node_modules/vitest/vitest.mjs",
+    "typecheck": "tsc --noEmit",
+    "mobile": "cd mobile && npx expo start",
+    "mobile:install": "cd mobile && npm install",
+    "eas:android": "cd mobile && npm run eas:android",
+    "server": "cd server && npm install && npm start",
+    "server:dev": "cd server && npm install && npm run dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "custom-friday",
+  "name": "Friday Night House Rules",
+  "description": "Example custom ruleset — copy and edit this file.",
+  "cardsPerHand": 11,
+  "targetScore": 3000,
+  "requirePartnerTookDiscard": false,
+  "canastasRequiredToGoOut": 1,
+  "allowTakeDiscardPile": true,
+  "frozenPileEnabled": true,
+  "oneCardFreezeRule": false,
+  "initialMeldThresholds": [
+    { "upToScore": 1495, "minPoints": 45 },
+    { "upToScore": 2995, "minPoints": 80 },
+    { "upToScore": 999999, "minPoints": 110 }
+  ],
+  "naturalCanastaBonus": 500,
+  "mixedCanastaBonus": 300,
+  "goingOutBonus": 150,
+  "redThreeValue": 100,
+  "redThreePenaltyInHand": 400,
+  "allFourRedThreesBonus": 800,
+  "minMeldSize": 3,
+  "frozenPileNaturalPair": 2
+}

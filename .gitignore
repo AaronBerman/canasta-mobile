@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Mobile / native
+.expo/
+**/.expo/
+.expo-shared/
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+*.xcworkspace
+*.xcuserdata
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & coverage
+*.log
+coverage/
+.nyc_output/
+
+# Flutter (if adopted later)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
