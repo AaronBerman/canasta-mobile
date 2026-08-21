@@ -1,0 +1,8 @@
+---
+description: Follow AGENTS.md for how to work in this repository
+alwaysApply: true
+---
+
+# Project conventions
+
+Follow [AGENTS.md](AGENTS.md). Do not invent stats or features. Keep PII out of shareable docs.

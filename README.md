@@ -54,6 +54,10 @@ canasta-mobile/
 └── rules/         # Example custom rules JSON
 ```
 
+A longer command reference is in [docs/usage.html](docs/usage.html).
+
 ## License
 
-Private — not yet published. See store docs before public release.
+Private. All rights reserved. See [LICENSE](LICENSE). Changes: [CHANGELOG.md](CHANGELOG.md). How to report a problem: [SECURITY.md](SECURITY.md).
+
+See store docs before public release.

@@ -160,7 +160,7 @@ Local `mobile/android/` can stay on disk for `expo run:android`; it must not be 
 From **`mobile/`** (where `eas.json` lives):
 
 ```powershell
-cd C:\Users\an80s\Projects\canasta-mobile\mobile
+cd mobile
 npm run eas:android
 ```
 

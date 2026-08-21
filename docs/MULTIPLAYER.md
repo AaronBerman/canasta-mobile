@@ -27,7 +27,7 @@ Expo Go on your phone cannot reach `localhost` on your PC. Set your LAN IP:
 
 ```bash
 # Windows example — find your IPv4 address with ipconfig
-set EXPO_PUBLIC_MULTIPLAYER_URL=ws://192.168.1.10:3847
+set EXPO_PUBLIC_MULTIPLAYER_URL=ws://YOUR_LAN_IP:3847
 cd mobile
 npx expo start
 ```

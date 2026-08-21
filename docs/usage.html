@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>canasta-mobile usage</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, sans-serif; line-height: 1.5; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; }
+    pre, code { font-family: ui-monospace, monospace; }
+    pre { padding: 0.75rem 1rem; overflow: auto; border: 1px solid currentColor; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <h1>canasta-mobile usage</h1>
+  <p>Partnership Canasta for iOS and Android. Shared TypeScript engine plus an Expo app. Private, not open source.</p>
+  <h2>Install</h2>
+  <pre>npm install
+npm test
+cd mobile
+npm install
+npx expo start</pre>
+  <p>Use Expo SDK 54 with Expo Go, or a dev build after native changes.</p>
+  <h2>Commands</h2>
+  <pre>npm test              # engine tests
+npm run typecheck
+npm run mobile        # expo start
+npm run server:dev    # optional multiplayer server</pre>
+  <h2>Limits</h2>
+  <ul>
+    <li>Multiplayer is optional and off in Play Store v1 unless EXPO_PUBLIC_MULTIPLAYER_ENABLED is set.</li>
+    <li>House rules live in Settings. Do not invent scoring.</li>
+    <li>Private license. See LICENSE.</li>
+  </ul>
+  <h2>Links</h2>
+  <ul>
+    <li><a href="../README.md">README</a></li>
+    <li><a href="MOBILE_APP.md">Mobile app</a></li>
+    <li><a href="../LICENSE">License</a></li>
+    <li><a href="../CHANGELOG.md">Changelog</a></li>
+    <li><a href="../SECURITY.md">Security</a></li>
+  </ul>
+</body>
+</html>

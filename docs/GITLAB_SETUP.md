@@ -25,9 +25,7 @@ Choose GitLab.com (or your self-hosted instance) and follow the browser flow.
 From the project directory:
 
 ```powershell
-cd C:\Users\an80s\Projects\canasta-mobile
-
-# If git wasn't initialized by create_project:
+# From the repo root:
 git init
 git add .
 git commit -m "Initial commit: Canasta mobile game scaffold with rules engine and AI"
@@ -45,7 +43,7 @@ glab repo create canasta-mobile --private --source=. --remote=origin --push
 5. Then:
 
 ```powershell
-cd C:\Users\an80s\Projects\canasta-mobile
+# From the repo root:
 git init
 git add .
 git commit -m "Initial commit: Canasta mobile game scaffold with rules engine and AI"

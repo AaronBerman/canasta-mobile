@@ -44,3 +44,11 @@ coverage/
 .flutter-plugins-dependencies
 .packages
 pubspec.lock
+
+# Internal notes (PII / machine-local). Do not upload.
+docs/internal/**
+!docs/internal/
+!docs/internal/README.md
+
+# Generated upload pack. Rebuild with the project-docs skill.
+docs/share/
